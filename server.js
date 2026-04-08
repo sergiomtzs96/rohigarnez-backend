@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./backend/routes/authRoutes');
 app.use('/api/auth', authRoutes);
 
 // Conexión a MongoDB
